@@ -1,0 +1,437 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option type="Map" name="children">
+    <Option type="Map" name="native:buffer_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="native:buffer"/>
+      <Option type="QString" name="component_description" value="Buffer 20"/>
+      <Option type="double" name="component_pos_x" value="653"/>
+      <Option type="double" name="component_pos_y" value="213"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="native:buffer_1"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Autobahn 20">
+          <Option type="QString" name="child_id" value="native:buffer_1"/>
+          <Option type="QString" name="component_description" value="Autobahn 20"/>
+          <Option type="double" name="component_pos_x" value="938"/>
+          <Option type="double" name="component_pos_y" value="210"/>
+          <Option type="QString" name="name" value="Autobahn 20"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="bool" name="static_value" value="false"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="20"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="autobahn"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="2"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="5"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_2">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="native:buffer"/>
+      <Option type="QString" name="component_description" value="Buffer 100"/>
+      <Option type="double" name="component_pos_x" value="652"/>
+      <Option type="double" name="component_pos_y" value="301"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="native:buffer_2"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Autobahn 100">
+          <Option type="QString" name="child_id" value="native:buffer_2"/>
+          <Option type="QString" name="component_description" value="Autobahn 100"/>
+          <Option type="double" name="component_pos_x" value="942"/>
+          <Option type="double" name="component_pos_y" value="300"/>
+          <Option type="QString" name="name" value="Autobahn 100"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="bool" name="static_value" value="false"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="100"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:buffer_1"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="2"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="5"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:buffer_3">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="native:buffer"/>
+      <Option type="QString" name="component_description" value="Buffer 200"/>
+      <Option type="double" name="component_pos_x" value="648"/>
+      <Option type="double" name="component_pos_y" value="394"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="native:buffer_3"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Autobahn 300">
+          <Option type="QString" name="child_id" value="native:buffer_3"/>
+          <Option type="QString" name="component_description" value="Autobahn 300"/>
+          <Option type="double" name="component_pos_x" value="945"/>
+          <Option type="double" name="component_pos_y" value="393"/>
+          <Option type="QString" name="name" value="Autobahn 300"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISSOLVE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="bool" name="static_value" value="false"/>
+          </Option>
+        </Option>
+        <Option type="List" name="DISTANCE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="200"/>
+          </Option>
+        </Option>
+        <Option type="List" name="END_CAP_STYLE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:buffer_2"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="JOIN_STYLE">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="int" name="static_value" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="MITER_LIMIT">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="2"/>
+          </Option>
+        </Option>
+        <Option type="List" name="SEGMENTS">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="double" name="static_value" value="5"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:intersection_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="qgis:intersection"/>
+      <Option type="QString" name="component_description" value="Intersection"/>
+      <Option type="double" name="component_pos_x" value="647"/>
+      <Option type="double" name="component_pos_y" value="735"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="qgis:intersection_1"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Intersected Habitats">
+          <Option type="QString" name="child_id" value="qgis:intersection_1"/>
+          <Option type="QString" name="component_description" value="Intersected Habitats"/>
+          <Option type="double" name="component_pos_x" value="656"/>
+          <Option type="double" name="component_pos_y" value="815"/>
+          <Option type="QString" name="name" value="Intersected Habitats"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="qgis:union_2"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_FIELDS">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="Unknown" name="static_value" value=""/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" name="parameter_name" value="environment"/>
+            <Option type="int" name="source" value="0"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY_FIELDS">
+          <Option type="Map">
+            <Option type="int" name="source" value="2"/>
+            <Option type="Unknown" name="static_value" value=""/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:union_1">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="qgis:union"/>
+      <Option type="QString" name="component_description" value="Union 1"/>
+      <Option type="double" name="component_pos_x" value="650"/>
+      <Option type="double" name="component_pos_y" value="485"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="qgis:union_1"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Impact Area S">
+          <Option type="QString" name="child_id" value="qgis:union_1"/>
+          <Option type="QString" name="component_description" value="Impact Area S"/>
+          <Option type="double" name="component_pos_x" value="948"/>
+          <Option type="double" name="component_pos_y" value="483"/>
+          <Option type="QString" name="name" value="Impact Area S"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:buffer_1"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:buffer_2"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="qgis:union_2">
+      <Option type="bool" name="active" value="true"/>
+      <Option name="alg_config"/>
+      <Option type="QString" name="alg_id" value="qgis:union"/>
+      <Option type="QString" name="component_description" value="Union 2"/>
+      <Option type="double" name="component_pos_x" value="646"/>
+      <Option type="double" name="component_pos_y" value="569"/>
+      <Option name="dependencies"/>
+      <Option type="QString" name="id" value="qgis:union_2"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Impact Area">
+          <Option type="QString" name="child_id" value="qgis:union_2"/>
+          <Option type="QString" name="component_description" value="Impact Area"/>
+          <Option type="double" name="component_pos_x" value="644"/>
+          <Option type="double" name="component_pos_y" value="651"/>
+          <Option type="QString" name="name" value="Impact Area"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+        </Option>
+      </Option>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="native:buffer_3"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+        <Option type="List" name="OVERLAY">
+          <Option type="Map">
+            <Option type="QString" name="child_id" value="qgis:union_1"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="help"/>
+  <Option type="QString" name="model_group" value="autobahn"/>
+  <Option type="QString" name="model_name" value="Workshop Graphic Modeler Example"/>
+  <Option type="Map" name="parameterDefinitions">
+    <Option type="Map" name="autobahn">
+      <Option type="List" name="data_types">
+        <Option type="int" value="1"/>
+      </Option>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Autobahn"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="autobahn"/>
+      <Option type="QString" name="parameter_type" value="vector"/>
+    </Option>
+    <Option type="Map" name="environment">
+      <Option type="List" name="data_types">
+        <Option type="int" value="2"/>
+      </Option>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Environment"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="environment"/>
+      <Option type="QString" name="parameter_type" value="vector"/>
+    </Option>
+    <Option type="Map" name="native:buffer_1:Autobahn 20">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="2"/>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Autobahn 20"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="native:buffer_1:Autobahn 20"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+    <Option type="Map" name="native:buffer_2:Autobahn 100">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="2"/>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Autobahn 100"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="native:buffer_2:Autobahn 100"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+    <Option type="Map" name="native:buffer_3:Autobahn 300">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="2"/>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Autobahn 300"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="native:buffer_3:Autobahn 300"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+    <Option type="Map" name="qgis:intersection_1:Intersected Habitats">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="-1"/>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Intersected Habitats"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="qgis:intersection_1:Intersected Habitats"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+    <Option type="Map" name="qgis:union_1:Impact Area S">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="-1"/>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Impact Area S"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="qgis:union_1:Impact Area S"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+    <Option type="Map" name="qgis:union_2:Impact Area">
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="-1"/>
+      <Option type="Unknown" name="default" value=""/>
+      <Option type="QString" name="description" value="Impact Area"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option name="metadata"/>
+      <Option type="QString" name="name" value="qgis:union_2:Impact Area"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
+    </Option>
+  </Option>
+  <Option type="Map" name="parameters">
+    <Option type="Map" name="autobahn">
+      <Option type="QString" name="component_description" value="autobahn"/>
+      <Option type="double" name="component_pos_x" value="660"/>
+      <Option type="double" name="component_pos_y" value="132"/>
+      <Option type="QString" name="name" value="autobahn"/>
+    </Option>
+    <Option type="Map" name="environment">
+      <Option type="QString" name="component_description" value="environment"/>
+      <Option type="double" name="component_pos_x" value="363"/>
+      <Option type="double" name="component_pos_y" value="652"/>
+      <Option type="QString" name="name" value="environment"/>
+    </Option>
+  </Option>
+</Option>
