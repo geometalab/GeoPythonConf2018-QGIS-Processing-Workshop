@@ -103,7 +103,7 @@ Now we can add the user input layer into QGIS
 ![Reference](https://github.com/bigzijing/Geopython-Conference-2018/blob/master/Workshop%20Presentation%20Slides/Workflow%20Example%20Images/Task%201.png)
 
 ## Task 2. Adding Buffers to Autobahn Layer
-- **Dataset used:** Autobhan.gpkg
+- **Dataset used:** Autobahn.gpkg
 - **Tools used:** Processing Graphic Modeler, Python Console
 - **Description:** To create buffer layers for the Autobahn to simulate the actual physical space of it
 - **Objective:** Running Processing algorithms on the Graphic Modeler, and then with Pythonic code
