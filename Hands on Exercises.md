@@ -70,13 +70,13 @@ With the click of a button to run a script, we can automate this task in mere se
 This problem will be broken down into smaller problem sets and tasks to break the problem apart. The tasks will be progressive, from getting familiar with the QGIS client to using its Processing toolbox tools, like the Graphical Modeler before moving on to creating your own custom script.
 
 
-## **Task 1.** Adding Geopackage as Layers into QGIS
+## **Task 1.** Adding GeoPackage as Layers into QGIS
 - **Dataset used:** Umgebung.gpkg, Autobahn.gpkg
 - **Tools used:** QGIS GUI, PyQGIS
 - **Description:** To load .gpkg files into QGIS client
 - **Objective:** Manually load vector layers on QGIS, and then using the Python console
 
-#### Task 1.1. Manually adding the Geopackage files into QGIS
+#### Task 1.1. Manually adding the GeoPackage files into QGIS
 1. Run QGIS 3.0 on your machine
 2. The first step is to set the Project CRS to 31467, DHDN/Gauss-Kruger Zone 3
 3. You can do this manually by clicking on the CRS at the bottom-right of the window, or by clicking `Project -> Project Properties -> CRS` or you can press `Ctrl + Shift + P` to open up Project Properties and then clicking CRS
